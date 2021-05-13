@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="'안녕하세요 Template ' + ${name}" >hello empty</p>
+<!--hello empty는 정적 html으로 띄울 때 보이는 것-->
+<!--p 내부에 th 뭐시기가 있으면 그게 Controller를 통해 동적으로 보이게 됨-->
+</body>
+</html>
